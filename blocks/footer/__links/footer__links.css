@@ -11,14 +11,5 @@
     .footer__links {
         gap: 32px;
         flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .footer__links {
-        gap: 32px;
-        flex-direction: column;
-        align-items: start;
     }
 }
