@@ -2,7 +2,7 @@
     position: relative;
     background-image: url(../../../images/cover__background.png);
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     text-decoration: none;
     color: white;
     max-width: 560px;
@@ -26,6 +26,7 @@
 
 .cover__link:hover::before {
     background-color: rgba(42, 44, 47, .8);
+    transition: .3s;
 }
 
 @media screen and (max-width: 1279px) {
